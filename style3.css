@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: skyblue;
+    margin: 0ch;
+    padding: 0ch;
+}
+
+h1{
+    text-align: center;
+    color: rgb(red, green, blue);
+}
+
+
+.todo-container{
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgba(222,94,192, 0.162);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(85,58,129, 0.1);
+}
+
+.todo-item{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.todo-item input[type="checkbox"]{
+    margin-right: 10px;
+
+}
+
+.todo-item label{
+    font-size: 16px;
+    color: rgb(red, green, blue);
+}
+
+.todo-item input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: rgb(234,234,234);
+}
